@@ -1,7 +1,8 @@
 {
   "name": "unicode-codepoint-names",
   "version": "1.0.0",
+  "author": "Leon Vogler",
   "description": "Unicode codepoint names API via GitHub Pages",
   "type": "module",
-  "private": true
+  "private": false
 }
