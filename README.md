@@ -73,20 +73,3 @@ Names are generated from Unicode’s `UnicodeData.txt` and written into `v1/` (b
    node scripts/generate-glyph-map.js
    ```
 3. Commit the updated `v1/` folder if needed.
-
----
-
-## Publishing (GitHub Pages)
-
-1. Create a new repository on GitHub (e.g. `unicode-codepoint-names`).
-2. Push this project:
-   ```bash
-   git remote add origin https://github.com/lnvglr/unicode-codepoint-names.git
-   git branch -M main
-   git push -u origin main
-   ```
-3. In the repo: **Settings → Pages** → Source: **Deploy from branch** → Branch: **main** → Root → Save.
-4. After a minute, the API is available at:
-   `https://lnvglr.github.io/unicode-codepoint-names/v1/<codepoint>`
-
-Replace `lnvglr` and `unicode-codepoint-names` with your GitHub username and repo name.
