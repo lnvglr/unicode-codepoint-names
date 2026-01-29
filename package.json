@@ -1,0 +1,7 @@
+{
+  "name": "unicode-codepoint-names",
+  "version": "1.0.0",
+  "description": "Unicode codepoint names API via GitHub Pages",
+  "type": "module",
+  "private": true
+}
